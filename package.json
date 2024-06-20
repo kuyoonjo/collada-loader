@@ -1,0 +1,22 @@
+{
+  "name": "@kuyoonjo/collada-loader",
+  "version": "0.0.2",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "files": [
+    "build"
+  ],
+  "main": "build/index",
+  "types": "build/ts/index",
+  "devDependencies": {
+    "three": "0.107.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
